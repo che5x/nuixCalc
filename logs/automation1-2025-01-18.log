@@ -1,0 +1,71 @@
+2025-01-18 00:19:33,788 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-01-18 00:19:33,795 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-01-18 00:19:33,795 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-01-18 00:19:33,795 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-01-18 00:19:33,795 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-01-18 00:19:33,803 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Administrator\AppData\Local\Temp\testng-eclipse-1787512781\testng-customsuite.xml
+
+2025-01-18 00:19:33,821 INFO o.t.i.Utils [main] [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+2025-01-18 00:19:33,973 INFO o.t.i.Utils [main] [TestNG] Time taken by org.testng.reporters.jq.Main@255990cc: 57 ms
+2025-01-18 00:19:33,995 INFO o.t.i.Utils [main] [TestNG] Time taken by org.testng.reporters.FailedReporter@33a2499c: 21 ms
+2025-01-18 00:19:34,013 INFO o.t.i.Utils [main] [TestNG] Time taken by org.testng.reporters.XMLReporter@3ad394e6: 18 ms
+2025-01-18 00:19:34,023 INFO o.t.i.Utils [main] [TestNG] Time taken by org.testng.reporters.EmailableReporter2@24b52d3e: 10 ms
+2025-01-18 00:19:34,033 INFO o.t.i.Utils [main] [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@36dce7ed: 10 ms
+2025-01-18 00:19:34,033 INFO o.t.i.Utils [main] [TestNG] Time taken by org.testng.internal.ExitCodeListener@47a64f7d: 0 ms
+2025-01-18 00:19:46,435 INFO o.t.i.Utils [main] [TestNG] Running:
+  D:\projects\Calc\Calc\testng.xml
+
+2025-01-18 00:20:31,343 INFO o.t.i.Utils [main] [TestNG] Running:
+  D:\projects\Calc\Calc\testng.xml
+
+2025-01-18 00:20:36,196 INFO t.TC_01_add [TestNG-tests-1] *****Verifying addition started.*****
+2025-01-18 00:20:36,620 ERROR t.TC_01_add [TestNG-tests-1] TEST FAILED, due to: test exception
+2025-01-18 00:22:50,736 INFO o.t.i.Utils [main] [TestNG] Running:
+  D:\projects\Calc\Calc\testng.xml
+
+2025-01-18 00:24:40,372 INFO o.t.i.Utils [main] [TestNG] Running:
+  D:\projects\Calc\Calc\testng.xml
+
+2025-01-18 00:24:44,754 INFO t.TC_01_add [TestNG-tests-1] *****Verifying addition started.*****
+2025-01-18 00:24:45,230 ERROR t.TC_01_add [TestNG-tests-1] TEST FAILED, due to: test exception
+2025-01-18 00:38:04,571 INFO o.t.i.Utils [main] [TestNG] Running:
+  D:\projects\Calc\Calc\testng.xml
+
+2025-01-18 00:38:08,327 INFO t.TC_01_add [TestNG-tests-1] *****Verifying addition started.*****
+2025-01-18 00:38:08,772 ERROR t.TC_01_add [TestNG-tests-1] TEST FAILED, due to: test exception
+2025-01-18 00:40:20,056 INFO o.t.i.Utils [main] [TestNG] Running:
+  D:\projects\Calc\Calc\testng.xml
+
+2025-01-18 00:40:23,426 INFO t.TC_01_add [TestNG-tests-1] *****Verifying addition started.*****
+2025-01-18 00:40:23,897 ERROR t.TC_01_add [TestNG-tests-1] TEST FAILED, due to: test exception
+2025-01-18 00:42:23,246 INFO o.t.i.Utils [main] [TestNG] Running:
+  D:\projects\Calc\Calc\testng.xml
+
+2025-01-18 00:42:26,872 INFO t.TC_01_add [TestNG-tests-1] *****Verifying addition started.*****
+2025-01-18 00:42:27,315 ERROR t.TC_01_add [TestNG-tests-1] TEST FAILED, due to: test exception
+2025-01-18 00:42:55,539 INFO o.t.i.Utils [main] [TestNG] Running:
+  D:\projects\Calc\Calc\testng.xml
+
+2025-01-18 00:42:59,000 INFO t.TC_01_add [TestNG-tests-1] *****Verifying addition started.*****
+2025-01-18 00:42:59,604 ERROR t.TC_01_add [TestNG-tests-1] TEST FAILED, due to: test exception
+2025-01-18 01:01:16,901 INFO t.TC_01_add [TestNG-tests-1] *****Verifying addition started.*****
+2025-01-18 01:01:17,372 ERROR t.TC_01_add [TestNG-tests-1] TEST FAILED, due to: test exception
+2025-01-18 01:13:00,435 INFO t.TC_01_add [TestNG-tests-1] *****Verifying addition started.*****
+2025-01-18 01:13:00,941 ERROR t.TC_01_add [TestNG-tests-1] TEST FAILED, due to: test exception
+2025-01-18 01:35:14,403 INFO o.t.i.Utils [main] [TestNG] Running:
+  D:\projects\Calc\Calc\testng.xml
+
+2025-01-18 01:35:20,533 INFO t.TC_01_add [TestNG-tests-1] *****Verifying addition started.*****
+2025-01-18 01:35:20,999 ERROR t.TC_01_add [TestNG-tests-1] TEST FAILED, due to: test exception
+2025-01-18 01:35:55,029 INFO t.TC_01_add [TestNG-tests-1] *****Verifying addition started.*****
+2025-01-18 01:35:55,478 ERROR t.TC_01_add [TestNG-tests-1] TEST FAILED, due to: test exception
+2025-01-18 01:36:55,693 INFO t.TC_01_add [TestNG-tests-1] *****Verifying addition started.*****
+2025-01-18 01:36:56,158 ERROR t.TC_01_add [TestNG-tests-1] TEST FAILED, due to: test exception
+2025-01-18 01:44:03,032 INFO t.TC_01_add [TestNG-tests-1] *****Verifying addition started.*****
+2025-01-18 01:44:03,506 ERROR t.TC_01_add [TestNG-tests-1] TEST FAILED, due to: test exception
+2025-01-18 02:45:16,400 INFO o.t.i.Utils [main] [TestNG] Running:
+  D:\projects\Calc\Calc\testng.xml
+
+2025-01-18 02:45:22,509 INFO t.TC_01_add [TestNG-tests-1] *****Verifying addition started.*****
+2025-01-18 02:45:22,965 ERROR t.TC_01_add [TestNG-tests-1] TEST FAILED, due to: test exception
