@@ -1,6 +1,8 @@
 D:\projects\Calc\Calc\src\test\java\pageObjects\BasePage.java
 D:\projects\Calc\Calc\src\test\java\pageObjects\CalculatorPage.java
-D:\projects\Calc\Calc\src\test\java\pageObjects\test1.java
 D:\projects\Calc\Calc\src\test\java\testBase\BaseClass.java
-D:\projects\Calc\Calc\src\test\java\testCases\TC_01_add.java
+D:\projects\Calc\Calc\src\test\java\testCases\Addition.java
+D:\projects\Calc\Calc\src\test\java\testCases\Division.java
+D:\projects\Calc\Calc\src\test\java\testCases\Multiplication.java
+D:\projects\Calc\Calc\src\test\java\testCases\Subtraction.java
 D:\projects\Calc\Calc\src\test\java\utilities\ExtentReportManager.java

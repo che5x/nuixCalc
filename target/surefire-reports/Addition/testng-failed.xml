@@ -8,7 +8,7 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="testCases.TC_01_add">
+      <class name="testCases.Addition">
         <methods>
           <include name="AfterMethod"/>
           <include name="tearDown"/>
@@ -16,7 +16,7 @@
           <include name="BeforeMethod"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_01_add -->
+      </class> <!-- testCases.Addition -->
     </classes>
   </test> <!-- Test in chrome(failed) -->
 </suite> <!-- Failed suite [Addition] -->

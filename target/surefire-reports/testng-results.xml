@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="15" passed="14" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-18T02:46:21 IST" name="Addition" finished-at="2025-01-18T02:46:26 IST" duration-ms="4676">
+  <suite started-at="2025-01-18T11:41:48 IST" name="Addition" finished-at="2025-01-18T11:42:02 IST" duration-ms="14162">
     <groups>
     </groups>
-    <test started-at="2025-01-18T02:46:21 IST" name="Test in chrome" finished-at="2025-01-18T02:46:26 IST" duration-ms="4676">
-      <class name="testCases.TC_01_add">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_01_add@5b58ed3c]" started-at="2025-01-18T02:46:21 IST" name="setup" finished-at="2025-01-18T02:46:23 IST" duration-ms="1873" status="PASS">
+    <test started-at="2025-01-18T11:41:48 IST" name="Test in chrome" finished-at="2025-01-18T11:42:02 IST" duration-ms="14162">
+      <class name="testCases.Subtraction">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.Subtraction@180e6ac4]" started-at="2025-01-18T11:41:53 IST" name="setup" finished-at="2025-01-18T11:41:54 IST" duration-ms="1239" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,35 +23,241 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCases.TC_01_add@5b58ed3c]" started-at="2025-01-18T02:46:23 IST" name="BeforeMethod" finished-at="2025-01-18T02:46:23 IST" duration-ms="31" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCases.Subtraction@180e6ac4]" started-at="2025-01-18T11:41:54 IST" name="BeforeMethod" finished-at="2025-01-18T11:41:54 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="AddDecimalTwoPointTwoMinusOne()[pri:0, instance:testCases.TC_01_add@5b58ed3c]" started-at="2025-01-18T02:46:23 IST" name="AddDecimalTwoPointTwoMinusOne" description="Addition test of float and int" finished-at="2025-01-18T02:46:24 IST" duration-ms="515" status="PASS">
+        <test-method signature="subtractDecimalAndInt()[pri:0, instance:testCases.Subtraction@180e6ac4]" started-at="2025-01-18T11:41:54 IST" name="subtractDecimalAndInt" description="Subtraction test of float and int" finished-at="2025-01-18T11:41:54 IST" duration-ms="533" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddDecimalTwoPointTwoMinusOne -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCases.TC_01_add@5b58ed3c]" started-at="2025-01-18T02:46:24 IST" name="AfterMethod" finished-at="2025-01-18T02:46:24 IST" duration-ms="54" status="PASS">
+        </test-method> <!-- subtractDecimalAndInt -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCases.Subtraction@180e6ac4]" started-at="2025-01-18T11:41:54 IST" name="AfterMethod" finished-at="2025-01-18T11:41:54 IST" duration-ms="52" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCases.TC_01_add@5b58ed3c]" started-at="2025-01-18T02:46:24 IST" name="BeforeMethod" finished-at="2025-01-18T02:46:24 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCases.Subtraction@180e6ac4]" started-at="2025-01-18T11:41:54 IST" name="BeforeMethod" finished-at="2025-01-18T11:41:54 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="AddZeroAndOne()[pri:0, instance:testCases.TC_01_add@5b58ed3c]" started-at="2025-01-18T02:46:24 IST" name="AddZeroAndOne" finished-at="2025-01-18T02:46:24 IST" duration-ms="523" status="PASS">
+        <test-method signature="subtractResultingInZero()[pri:0, instance:testCases.Subtraction@180e6ac4]" started-at="2025-01-18T11:41:54 IST" name="subtractResultingInZero" description="Subtraction resulting in zero" finished-at="2025-01-18T11:41:55 IST" duration-ms="543" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddZeroAndOne -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCases.TC_01_add@5b58ed3c]" started-at="2025-01-18T02:46:24 IST" name="AfterMethod" finished-at="2025-01-18T02:46:24 IST" duration-ms="51" status="PASS">
+        </test-method> <!-- subtractResultingInZero -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCases.Subtraction@180e6ac4]" started-at="2025-01-18T11:41:55 IST" name="AfterMethod" finished-at="2025-01-18T11:41:55 IST" duration-ms="52" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCases.TC_01_add@5b58ed3c]" started-at="2025-01-18T02:46:24 IST" name="BeforeMethod" finished-at="2025-01-18T02:46:24 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCases.Subtraction@180e6ac4]" started-at="2025-01-18T11:41:55 IST" name="BeforeMethod" finished-at="2025-01-18T11:41:55 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="verifyAddition()[pri:0, instance:testCases.TC_01_add@5b58ed3c]" started-at="2025-01-18T02:46:24 IST" name="verifyAddition" finished-at="2025-01-18T02:46:25 IST" duration-ms="477" status="FAIL">
+        <test-method signature="subtractionGettingNegativeResults()[pri:0, instance:testCases.Subtraction@180e6ac4]" started-at="2025-01-18T11:41:55 IST" name="subtractionGettingNegativeResults" description="Getting negative result while Subtraction" finished-at="2025-01-18T11:41:55 IST" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractionGettingNegativeResults -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCases.Subtraction@180e6ac4]" started-at="2025-01-18T11:41:55 IST" name="AfterMethod" finished-at="2025-01-18T11:41:55 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method signature="verifySubtraction()[pri:0, instance:testCases.Subtraction@180e6ac4]" started-at="2025-01-18T11:41:55 IST" name="verifySubtraction" finished-at="2025-01-18T11:41:56 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubtraction -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCases.Subtraction@180e6ac4]" started-at="2025-01-18T11:41:55 IST" name="BeforeMethod" finished-at="2025-01-18T11:41:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCases.Subtraction@180e6ac4]" started-at="2025-01-18T11:41:56 IST" name="AfterMethod" finished-at="2025-01-18T11:41:56 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Subtraction@180e6ac4]" started-at="2025-01-18T11:41:56 IST" name="tearDown" finished-at="2025-01-18T11:41:56 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Subtraction -->
+      <class name="testCases.Multiplication">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.Multiplication@42b64ab8]" started-at="2025-01-18T11:41:56 IST" name="setup" finished-at="2025-01-18T11:41:57 IST" duration-ms="1270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCases.Multiplication@42b64ab8]" started-at="2025-01-18T11:41:57 IST" name="BeforeMethod" finished-at="2025-01-18T11:41:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="multiplicationOfDecimalAndInt()[pri:0, instance:testCases.Multiplication@42b64ab8]" started-at="2025-01-18T11:41:57 IST" name="multiplicationOfDecimalAndInt" description="Multiplication test of float and int" finished-at="2025-01-18T11:41:58 IST" duration-ms="545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplicationOfDecimalAndInt -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCases.Multiplication@42b64ab8]" started-at="2025-01-18T11:41:58 IST" name="AfterMethod" finished-at="2025-01-18T11:41:58 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCases.Multiplication@42b64ab8]" started-at="2025-01-18T11:41:58 IST" name="BeforeMethod" finished-at="2025-01-18T11:41:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="multiplicationUsingZero()[pri:0, instance:testCases.Multiplication@42b64ab8]" started-at="2025-01-18T11:41:58 IST" name="multiplicationUsingZero" description="Addition test of float and int" finished-at="2025-01-18T11:41:58 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplicationUsingZero -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCases.Multiplication@42b64ab8]" started-at="2025-01-18T11:41:58 IST" name="AfterMethod" finished-at="2025-01-18T11:41:58 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCases.Multiplication@42b64ab8]" started-at="2025-01-18T11:41:58 IST" name="BeforeMethod" finished-at="2025-01-18T11:41:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="verifyMultiplication()[pri:0, instance:testCases.Multiplication@42b64ab8]" started-at="2025-01-18T11:41:58 IST" name="verifyMultiplication" finished-at="2025-01-18T11:41:59 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMultiplication -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCases.Multiplication@42b64ab8]" started-at="2025-01-18T11:41:59 IST" name="AfterMethod" finished-at="2025-01-18T11:41:59 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Multiplication@42b64ab8]" started-at="2025-01-18T11:41:59 IST" name="tearDown" finished-at="2025-01-18T11:41:59 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Multiplication -->
+      <class name="testCases.Division">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.Division@7e985ce9]" started-at="2025-01-18T11:41:59 IST" name="setup" finished-at="2025-01-18T11:42:00 IST" duration-ms="1261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCases.Division@7e985ce9]" started-at="2025-01-18T11:42:00 IST" name="BeforeMethod" finished-at="2025-01-18T11:42:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="divisionOfzeroByInt()[pri:0, instance:testCases.Division@7e985ce9]" started-at="2025-01-18T11:42:00 IST" name="divisionOfzeroByInt" description="zero divided by number" finished-at="2025-01-18T11:42:00 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionOfzeroByInt -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCases.Division@7e985ce9]" started-at="2025-01-18T11:42:00 IST" name="AfterMethod" finished-at="2025-01-18T11:42:00 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCases.Division@7e985ce9]" started-at="2025-01-18T11:42:00 IST" name="BeforeMethod" finished-at="2025-01-18T11:42:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="divisionUsingFlaot()[pri:0, instance:testCases.Division@7e985ce9]" started-at="2025-01-18T11:42:00 IST" name="divisionUsingFlaot" description="verifying division of float" finished-at="2025-01-18T11:42:01 IST" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionUsingFlaot -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCases.Division@7e985ce9]" started-at="2025-01-18T11:42:01 IST" name="AfterMethod" finished-at="2025-01-18T11:42:01 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCases.Division@7e985ce9]" started-at="2025-01-18T11:42:01 IST" name="BeforeMethod" finished-at="2025-01-18T11:42:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="divisionUsingInt()[pri:0, instance:testCases.Division@7e985ce9]" started-at="2025-01-18T11:42:01 IST" name="divisionUsingInt" description="verifying division of int" finished-at="2025-01-18T11:42:01 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionUsingInt -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCases.Division@7e985ce9]" started-at="2025-01-18T11:42:01 IST" name="AfterMethod" finished-at="2025-01-18T11:42:01 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCases.Division@7e985ce9]" started-at="2025-01-18T11:42:01 IST" name="BeforeMethod" finished-at="2025-01-18T11:42:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="divisionUsingZero()[pri:0, instance:testCases.Division@7e985ce9]" started-at="2025-01-18T11:42:01 IST" name="divisionUsingZero" description="Division by zero" finished-at="2025-01-18T11:42:02 IST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionUsingZero -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCases.Division@7e985ce9]" started-at="2025-01-18T11:42:02 IST" name="AfterMethod" finished-at="2025-01-18T11:42:02 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Division@7e985ce9]" started-at="2025-01-18T11:42:02 IST" name="tearDown" finished-at="2025-01-18T11:42:02 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Division -->
+      <class name="testCases.Addition">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.Addition@545de5a4]" started-at="2025-01-18T11:41:48 IST" name="setup" finished-at="2025-01-18T11:41:50 IST" duration-ms="1829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCases.Addition@545de5a4]" started-at="2025-01-18T11:41:50 IST" name="BeforeMethod" finished-at="2025-01-18T11:41:50 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="AddZeroAndInt()[pri:0, instance:testCases.Addition@545de5a4]" started-at="2025-01-18T11:41:50 IST" name="AddZeroAndInt" description="Addition involving zero" finished-at="2025-01-18T11:41:51 IST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddZeroAndInt -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCases.Addition@545de5a4]" started-at="2025-01-18T11:41:51 IST" name="AfterMethod" finished-at="2025-01-18T11:41:51 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCases.Addition@545de5a4]" started-at="2025-01-18T11:41:51 IST" name="BeforeMethod" finished-at="2025-01-18T11:41:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="addFloatAndInt()[pri:0, instance:testCases.Addition@545de5a4]" started-at="2025-01-18T11:41:51 IST" name="addFloatAndInt" description="Addition test of float and int" finished-at="2025-01-18T11:41:51 IST" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFloatAndInt -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCases.Addition@545de5a4]" started-at="2025-01-18T11:41:51 IST" name="AfterMethod" finished-at="2025-01-18T11:41:51 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCases.Addition@545de5a4]" started-at="2025-01-18T11:41:51 IST" name="BeforeMethod" finished-at="2025-01-18T11:41:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="addMultipleNumbers()[pri:0, instance:testCases.Addition@545de5a4]" started-at="2025-01-18T11:41:51 IST" name="addMultipleNumbers" description="Addition test of float and int" finished-at="2025-01-18T11:41:52 IST" duration-ms="549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleNumbers -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCases.Addition@545de5a4]" started-at="2025-01-18T11:41:52 IST" name="AfterMethod" finished-at="2025-01-18T11:41:52 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method signature="verifyAddition()[pri:0, instance:testCases.Addition@545de5a4]" started-at="2025-01-18T11:41:52 IST" name="verifyAddition" description="test exception handling in framework" finished-at="2025-01-18T11:41:52 IST" duration-ms="458" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -60,7 +266,7 @@
               <![CDATA[java.lang.AssertionError: null
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.fail(Assert.java:116)
-at testCases.TC_01_add.verifyAddition(TC_01_add.java:30)
+at testCases.Addition.verifyAddition(Addition.java:29)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -89,27 +295,19 @@ at java.base/java.lang.Thread.run(Thread.java:829)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddition -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCases.TC_01_add@5b58ed3c]" started-at="2025-01-18T02:46:25 IST" name="AfterMethod" finished-at="2025-01-18T02:46:25 IST" duration-ms="49" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCases.TC_01_add@5b58ed3c]" started-at="2025-01-18T02:46:25 IST" name="BeforeMethod" finished-at="2025-01-18T02:46:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCases.Addition@545de5a4]" started-at="2025-01-18T11:41:52 IST" name="BeforeMethod" finished-at="2025-01-18T11:41:52 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="verifySubtraction()[pri:0, instance:testCases.TC_01_add@5b58ed3c]" started-at="2025-01-18T02:46:25 IST" name="verifySubtraction" finished-at="2025-01-18T02:46:26 IST" duration-ms="471" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySubtraction -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCases.TC_01_add@5b58ed3c]" started-at="2025-01-18T02:46:26 IST" name="AfterMethod" finished-at="2025-01-18T02:46:26 IST" duration-ms="53" status="PASS">
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testCases.Addition@545de5a4]" started-at="2025-01-18T11:41:52 IST" name="AfterMethod" finished-at="2025-01-18T11:41:52 IST" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_01_add@5b58ed3c]" started-at="2025-01-18T02:46:26 IST" name="tearDown" finished-at="2025-01-18T02:46:26 IST" duration-ms="159" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Addition@545de5a4]" started-at="2025-01-18T11:41:52 IST" name="tearDown" finished-at="2025-01-18T11:41:53 IST" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_01_add -->
+      </class> <!-- testCases.Addition -->
     </test> <!-- Test in chrome -->
   </suite> <!-- Addition -->
 </testng-results>

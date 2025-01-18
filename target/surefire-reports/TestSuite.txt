@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.927 s <<< FAILURE! -- in TestSuite
-testCases.TC_01_add.verifyAddition -- Time elapsed: 0.632 s <<< FAILURE!
+Tests run: 15, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.48 s <<< FAILURE! -- in TestSuite
+testCases.Addition.verifyAddition -- Time elapsed: 0.622 s <<< FAILURE!
 java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.fail(Assert.java:116)
-	at testCases.TC_01_add.verifyAddition(TC_01_add.java:30)
+	at testCases.Addition.verifyAddition(Addition.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

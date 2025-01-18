@@ -1,4 +1,2 @@
-2025-01-18 02:45:57,167 INFO t.TC_01_add [TestNG-tests-1] *****Verifying addition started.*****
-2025-01-18 02:45:57,747 ERROR t.TC_01_add [TestNG-tests-1] TEST FAILED, due to: test exception
-2025-01-18 02:46:24,877 INFO t.TC_01_add [TestNG-tests-1] *****Verifying addition started.*****
-2025-01-18 02:46:25,346 ERROR t.TC_01_add [TestNG-tests-1] TEST FAILED, due to: test exception
+2025-01-18 11:41:52,227 INFO t.Addition [TestNG-tests-1] *****Verifying addition started.*****
+2025-01-18 11:41:52,679 ERROR t.Addition [TestNG-tests-1] TEST FAILED, due to: test exception

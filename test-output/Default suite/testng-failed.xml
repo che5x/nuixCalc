@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC_01_add">
+      <class name="testCases.Subtraction">
         <methods>
           <include name="AfterMethod"/>
           <include name="tearDown"/>
-          <include name="AddZeroAndOne"/>
           <include name="BeforeMethod"/>
           <include name="setup"/>
+          <include name="subtractionGettingNegativeResults"/>
         </methods>
-      </class> <!-- testCases.TC_01_add -->
+      </class> <!-- testCases.Subtraction -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

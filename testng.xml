@@ -12,7 +12,10 @@
 		<parameter name="browser" value="Chrome" />
 
 		<classes>
-			<class name="testCases.TC_01_add" />
+			<class name="testCases.Addition" />
+			<class name="testCases.Subtraction" />
+			<class name="testCases.Multiplication" />
+			<class name="testCases.Division" />
 		</classes>
 	</test> <!-- Test -->
 

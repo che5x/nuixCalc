@@ -56,7 +56,8 @@ public class ExtentReportManager implements ITestListener {
 	@Override
 	public void onTestSuccess(ITestResult result) {
 
-		test = extent.createTest(result.getTestClass().getName());
+		//test = extent.createTest(result.getTestClass().getName()+"-"+result.getMethod().getMethodName());
+		test = extent.createTest(result.getMethod().getMethodName());
 		test.assignCategory(result.getMethod().getGroups());
 		test.log(Status.PASS, result.getName() + " got successfully executed!");
 
@@ -64,10 +65,10 @@ public class ExtentReportManager implements ITestListener {
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		test = extent.createTest(result.getTestClass().getName());
+		test = extent.createTest(result.getMethod().getMethodName());
 		test.assignCategory(result.getMethod().getGroups());
 		test.log(Status.FAIL, result.getName() + " got Failed !!");
-		test.log(Status.INFO, result.getThrowable().getMessage());
+		//test.log(Status.INFO, result.getThrowable().getMessage());
 
 		try {
 			String imgPath = new BaseClass().captureScreen(result.getName());
@@ -79,7 +80,7 @@ public class ExtentReportManager implements ITestListener {
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
-		test = extent.createTest(result.getTestClass().getName());
+		test = extent.createTest(result.getMethod().getMethodName());
 		test.assignCategory(result.getMethod().getGroups());
 		test.log(Status.SKIP, result.getName() + "got Skipped!");
 		test.log(Status.INFO, result.getThrowable().getMessage());

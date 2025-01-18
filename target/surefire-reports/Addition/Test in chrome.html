@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test in chrome</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>14/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jan 18 02:46:21 IST 2025</td>
+<td>Started on:</td><td>Sat Jan 18 11:41:48 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>4 seconds (4676 ms)</td>
+<tr><td>Total time:</td><td>14 seconds (14162 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,19 +76,19 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC_01_add.verifyAddition()'><b>verifyAddition</b><br>Test class: testCases.TC_01_add</td>
+<td title='testCases.Addition.verifyAddition()'><b>verifyAddition</b><br>Test class: testCases.Addition<br>Test method: test exception handling in framework</td>
 <td><div><pre>java.lang.AssertionError: null
-	at testCases.TC_01_add.verifyAddition(TC_01_add.java:30)
+	at testCases.Addition.verifyAddition(Addition.java:29)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1491393583", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1491393583'><pre>java.lang.AssertionError: null
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1677763869", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1677763869'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.fail(Assert.java:116)
-	at testCases.TC_01_add.verifyAddition(TC_01_add.java:30)
+	at testCases.Addition.verifyAddition(Addition.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -113,7 +113,7 @@ function toggleAllBoxes() {
 	at java.base/java.lang.Thread.run(Thread.java:829)
 </pre></div></td>
 <td>0</td>
-<td>testCases.TC_01_add@5b58ed3c</td></tr>
+<td>testCases.Addition@545de5a4</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -124,20 +124,75 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC_01_add.AddDecimalTwoPointTwoMinusOne()'><b>AddDecimalTwoPointTwoMinusOne</b><br>Test class: testCases.TC_01_add<br>Test method: Addition test of float and int</td>
+<td title='testCases.Addition.addFloatAndInt()'><b>addFloatAndInt</b><br>Test class: testCases.Addition<br>Test method: Addition test of float and int</td>
 <td></td>
 <td>0</td>
-<td>testCases.TC_01_add@5b58ed3c</td></tr>
+<td>testCases.Addition@545de5a4</td></tr>
 <tr>
-<td title='testCases.TC_01_add.AddZeroAndOne()'><b>AddZeroAndOne</b><br>Test class: testCases.TC_01_add</td>
+<td title='testCases.Subtraction.verifySubtraction()'><b>verifySubtraction</b><br>Test class: testCases.Subtraction</td>
 <td></td>
 <td>0</td>
-<td>testCases.TC_01_add@5b58ed3c</td></tr>
+<td>testCases.Subtraction@180e6ac4</td></tr>
 <tr>
-<td title='testCases.TC_01_add.verifySubtraction()'><b>verifySubtraction</b><br>Test class: testCases.TC_01_add</td>
+<td title='testCases.Multiplication.multiplicationUsingZero()'><b>multiplicationUsingZero</b><br>Test class: testCases.Multiplication<br>Test method: Addition test of float and int</td>
 <td></td>
 <td>0</td>
-<td>testCases.TC_01_add@5b58ed3c</td></tr>
+<td>testCases.Multiplication@42b64ab8</td></tr>
+<tr>
+<td title='testCases.Division.divisionUsingInt()'><b>divisionUsingInt</b><br>Test class: testCases.Division<br>Test method: verifying division of int</td>
+<td></td>
+<td>0</td>
+<td>testCases.Division@7e985ce9</td></tr>
+<tr>
+<td title='testCases.Division.divisionUsingZero()'><b>divisionUsingZero</b><br>Test class: testCases.Division<br>Test method: Division by zero</td>
+<td></td>
+<td>0</td>
+<td>testCases.Division@7e985ce9</td></tr>
+<tr>
+<td title='testCases.Multiplication.verifyMultiplication()'><b>verifyMultiplication</b><br>Test class: testCases.Multiplication</td>
+<td></td>
+<td>0</td>
+<td>testCases.Multiplication@42b64ab8</td></tr>
+<tr>
+<td title='testCases.Division.divisionUsingFlaot()'><b>divisionUsingFlaot</b><br>Test class: testCases.Division<br>Test method: verifying division of float</td>
+<td></td>
+<td>0</td>
+<td>testCases.Division@7e985ce9</td></tr>
+<tr>
+<td title='testCases.Addition.AddZeroAndInt()'><b>AddZeroAndInt</b><br>Test class: testCases.Addition<br>Test method: Addition involving zero</td>
+<td></td>
+<td>0</td>
+<td>testCases.Addition@545de5a4</td></tr>
+<tr>
+<td title='testCases.Subtraction.subtractDecimalAndInt()'><b>subtractDecimalAndInt</b><br>Test class: testCases.Subtraction<br>Test method: Subtraction test of float and int</td>
+<td></td>
+<td>0</td>
+<td>testCases.Subtraction@180e6ac4</td></tr>
+<tr>
+<td title='testCases.Addition.addMultipleNumbers()'><b>addMultipleNumbers</b><br>Test class: testCases.Addition<br>Test method: Addition test of float and int</td>
+<td></td>
+<td>0</td>
+<td>testCases.Addition@545de5a4</td></tr>
+<tr>
+<td title='testCases.Multiplication.multiplicationOfDecimalAndInt()'><b>multiplicationOfDecimalAndInt</b><br>Test class: testCases.Multiplication<br>Test method: Multiplication test of float and int</td>
+<td></td>
+<td>0</td>
+<td>testCases.Multiplication@42b64ab8</td></tr>
+<tr>
+<td title='testCases.Subtraction.subtractionGettingNegativeResults()'><b>subtractionGettingNegativeResults</b><br>Test class: testCases.Subtraction<br>Test method: Getting negative result while Subtraction</td>
+<td></td>
+<td>0</td>
+<td>testCases.Subtraction@180e6ac4</td></tr>
+<tr>
+<td title='testCases.Subtraction.subtractResultingInZero()'><b>subtractResultingInZero</b><br>Test class: testCases.Subtraction<br>Test method: Subtraction resulting in zero</td>
+<td></td>
+<td>0</td>
+<td>testCases.Subtraction@180e6ac4</td></tr>
+<tr>
+<td title='testCases.Division.divisionOfzeroByInt()'><b>divisionOfzeroByInt</b><br>Test class: testCases.Division<br>Test method: zero divided by number</td>
+<td></td>
+<td>0</td>
+<td>testCases.Division@7e985ce9</td></tr>
 </table><p>
 </body>
 </html>
